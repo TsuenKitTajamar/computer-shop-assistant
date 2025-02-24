@@ -1,0 +1,1726 @@
+[
+    {
+        "intent": "BuscarOrdenador",
+        "language": "es-es",
+        "text": "Necesito un portátil con Modelo de procesador i7-1360P y RAM Instalada 32 GB, que tenga Disco duro 1.000 GB.",
+        "entities": [
+            {
+                "category": "ModeloProcesador",
+                "offset": 25,
+                "length": 29
+            },
+            {
+                "category": "MemoriaRAM",
+                "offset": 57,
+                "length": 19
+            },
+            {
+                "category": "CapacidadMemoria",
+                "offset": 88,
+                "length": 19
+            }
+        ]
+    },
+    {
+        "intent": "BuscarOrdenador",
+        "language": "es-es",
+        "text": "Estoy buscando un ordenador con Fabricante procesador Intel y al menos Disco duro 1.000 GB.",
+        "entities": [
+            {
+                "category": "FabricanteProcesador",
+                "offset": 32,
+                "length": 27
+            },
+            {
+                "category": "CapacidadMemoria",
+                "offset": 71,
+                "length": 19
+            }
+        ]
+    },
+    {
+        "intent": "CompararOrdenadores",
+        "language": "es-es",
+        "text": "Quiero comprar el LG gram 16Z90R/ de color Color Negro que cuesta 2.130,00 €.",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 18,
+                "length": 15
+            },
+            {
+                "category": "Color",
+                "offset": 43,
+                "length": 11
+            },
+            {
+                "category": "Precio",
+                "offset": 66,
+                "length": 10
+            }
+        ]
+    },
+    {
+        "intent": "HacerPedido",
+        "language": "es-es",
+        "text": "Voy a hacer un pedido del LG gram 16Z90R/ con código Código: 16Z90R-E.AD78B.",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 26,
+                "length": 15
+            },
+            {
+                "category": "CodigoProducto",
+                "offset": 53,
+                "length": 22
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Qué sistema operativo tiene el LG gram 16Z90R/? Version S.O. Windows 11 Home",
+        "entities": [
+            {
+                "category": "SistemaOperativo",
+                "offset": 49,
+                "length": 28
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Este ordenador tiene webcam? Webcam integrada Si",
+        "entities": [
+            {
+                "category": "WebCamIncluida",
+                "offset": 30,
+                "length": 19
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuántas pulgadas tiene la pantalla del LG gram 16Z90R/? Tamaño pantalla 16\"",
+        "entities": [
+            {
+                "category": "Pulgadas",
+                "offset": 57,
+                "length": 19
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuál es la tarjeta gráfica del LG gram 16Z90R/? Modelo gráfica Iris Xe Graphics fabricada por Nvidia.",
+        "entities": [
+            {
+                "category": "ModeloGrafica",
+                "offset": 49,
+                "length": 31
+            },
+            {
+                "category": "FabricanteGrafica",
+                "offset": 95,
+                "length": 6
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuál es el procesador del LG gram 16Z90R/? Familia Procesador Intel Core i7.",
+        "entities": [
+            {
+                "category": "Procesador",
+                "offset": 44,
+                "length": 32
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Qué tipo de memoria tiene el LG gram 16Z90R/? Tipo Soporte 1 SSD.",
+        "entities": [
+            {
+                "category": "TipoMemoria",
+                "offset": 47,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuánto pesa el LG gram 16Z90R/? Peso sin embalaje 1,2 kg.",
+        "entities": [
+            {
+                "category": "Peso",
+                "offset": 33,
+                "length": 24
+            }
+        ]
+    },
+    {
+        "intent": "CompararOrdenadores",
+        "language": "es-es",
+        "text": "Quiero comprar el LG gram 17Z90R de color Color Negro que cuesta 2.205,78 €.",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 18,
+                "length": 14
+            },
+            {
+                "category": "Color",
+                "offset": 42,
+                "length": 11
+            },
+            {
+                "category": "Precio",
+                "offset": 65,
+                "length": 10
+            }
+        ]
+    },
+    {
+        "intent": "HacerPedido",
+        "language": "es-es",
+        "text": "Voy a hacer un pedido del LG gram 17Z90R con código Código: 17Z90R-E.AD78B.",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 26,
+                "length": 14
+            },
+            {
+                "category": "CodigoProducto",
+                "offset": 52,
+                "length": 22
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Qué sistema operativo tiene el LG gram 17Z90R? Version S.O. Windows 11 Home",
+        "entities": [
+            {
+                "category": "SistemaOperativo",
+                "offset": 48,
+                "length": 28
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuántas pulgadas tiene la pantalla del LG gram 17Z90R? Tamaño pantalla 17\"",
+        "entities": [
+            {
+                "category": "Pulgadas",
+                "offset": 56,
+                "length": 19
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuál es la tarjeta gráfica del LG gram 17Z90R? Modelo gráfica RTX™ 3050 Ti fabricada por Intel.",
+        "entities": [
+            {
+                "category": "ModeloGrafica",
+                "offset": 48,
+                "length": 27
+            },
+            {
+                "category": "FabricanteGrafica",
+                "offset": 90,
+                "length": 5
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuál es el procesador del LG gram 17Z90R? Familia Procesador Intel Core i7.",
+        "entities": [
+            {
+                "category": "Procesador",
+                "offset": 43,
+                "length": 32
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Qué tipo de memoria tiene el LG gram 17Z90R? Tipo Soporte 1 SSD.",
+        "entities": [
+            {
+                "category": "TipoMemoria",
+                "offset": 46,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuánto pesa el LG gram 17Z90R? Peso sin embalaje 1,45 kg.",
+        "entities": [
+            {
+                "category": "Peso",
+                "offset": 32,
+                "length": 25
+            }
+        ]
+    },
+    {
+        "intent": "BuscarOrdenador",
+        "language": "es-es",
+        "text": "Necesito un portátil con Modelo de procesador 155U y RAM Instalada 32 GB, que tenga Disco duro 1.024 GB.",
+        "entities": [
+            {
+                "category": "ModeloProcesador",
+                "offset": 25,
+                "length": 25
+            },
+            {
+                "category": "MemoriaRAM",
+                "offset": 53,
+                "length": 19
+            },
+            {
+                "category": "CapacidadMemoria",
+                "offset": 84,
+                "length": 19
+            }
+        ]
+    },
+    {
+        "intent": "BuscarOrdenador",
+        "language": "es-es",
+        "text": "Estoy buscando un ordenador con Fabricante procesador Intel y al menos Disco duro 1.024 GB.",
+        "entities": [
+            {
+                "category": "FabricanteProcesador",
+                "offset": 32,
+                "length": 27
+            },
+            {
+                "category": "CapacidadMemoria",
+                "offset": 71,
+                "length": 19
+            }
+        ]
+    },
+    {
+        "intent": "CompararOrdenadores",
+        "language": "es-es",
+        "text": "Quiero comprar el Lenovo ThinkPad X1 2-in-1 Gen 9 de color Color Gris que cuesta 2.546,24 €.",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 18,
+                "length": 31
+            },
+            {
+                "category": "Color",
+                "offset": 59,
+                "length": 10
+            },
+            {
+                "category": "Precio",
+                "offset": 81,
+                "length": 10
+            }
+        ]
+    },
+    {
+        "intent": "HacerPedido",
+        "language": "es-es",
+        "text": "Voy a hacer un pedido del Lenovo ThinkPad X1 2-in-1 Gen 9 con código Código: 21KE003VSP.",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 26,
+                "length": 31
+            },
+            {
+                "category": "CodigoProducto",
+                "offset": 69,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Qué sistema operativo tiene el Lenovo ThinkPad X1 2-in-1 Gen 9? Version S.O. Windows 11 Pro",
+        "entities": [
+            {
+                "category": "SistemaOperativo",
+                "offset": 65,
+                "length": 27
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuántas pulgadas tiene la pantalla del Lenovo ThinkPad X1 2-in-1 Gen 9? Tamaño pantalla 14\"",
+        "entities": [
+            {
+                "category": "Pulgadas",
+                "offset": 73,
+                "length": 19
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuál es la tarjeta gráfica del Lenovo ThinkPad X1 2-in-1 Gen 9? Modelo gráfica Intel Graphics fabricada por Intel.",
+        "entities": [
+            {
+                "category": "ModeloGrafica",
+                "offset": 65,
+                "length": 29
+            },
+            {
+                "category": "FabricanteGrafica",
+                "offset": 80,
+                "length": 5
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuál es el procesador del Lenovo ThinkPad X1 2-in-1 Gen 9? Familia Procesador Intel Core Ultra 7.",
+        "entities": [
+            {
+                "category": "Procesador",
+                "offset": 60,
+                "length": 37
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Qué tipo de memoria tiene el Lenovo ThinkPad X1 2-in-1 Gen 9? Tipo Soporte 1 SSD.",
+        "entities": [
+            {
+                "category": "TipoMemoria",
+                "offset": 63,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuánto pesa el Lenovo ThinkPad X1 2-in-1 Gen 9? Peso sin embalaje 1,35 kg.",
+        "entities": [
+            {
+                "category": "Peso",
+                "offset": 49,
+                "length": 25
+            }
+        ]
+    },
+    {
+        "intent": "BuscarOrdenador",
+        "language": "es-es",
+        "text": "Necesito un portátil con Modelo de procesador 155H y RAM Instalada 32, que tenga Disco duro 1.000.",
+        "entities": [
+            {
+                "category": "ModeloProcesador",
+                "offset": 25,
+                "length": 25
+            },
+            {
+                "category": "MemoriaRAM",
+                "offset": 53,
+                "length": 16
+            },
+            {
+                "category": "CapacidadMemoria",
+                "offset": 81,
+                "length": 16
+            }
+        ]
+    },
+    {
+        "intent": "BuscarOrdenador",
+        "language": "es-es",
+        "text": "Estoy buscando un ordenador con Fabricante procesador Intel y al menos Disco duro 1.000.",
+        "entities": [
+            {
+                "category": "FabricanteProcesador",
+                "offset": 32,
+                "length": 27
+            },
+            {
+                "category": "CapacidadMemoria",
+                "offset": 71,
+                "length": 16
+            }
+        ]
+    },
+    {
+        "intent": "CompararOrdenadores",
+        "language": "es-es",
+        "text": "Quiero comprar el Dell XPS 14 9440U7 de color Color Gris que cuesta 2.628,52 €.",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 18,
+                "length": 18
+            },
+            {
+                "category": "Color",
+                "offset": 46,
+                "length": 10
+            },
+            {
+                "category": "Precio",
+                "offset": 68,
+                "length": 10
+            }
+        ]
+    },
+    {
+        "intent": "HacerPedido",
+        "language": "es-es",
+        "text": "Voy a hacer un pedido del Dell XPS 14 9440U7 con código Código: DTPF3.",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 26,
+                "length": 18
+            },
+            {
+                "category": "CodigoProducto",
+                "offset": 56,
+                "length": 13
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Qué sistema operativo tiene el Dell XPS 14 9440U7? Version S.O. Windows 11 Pro",
+        "entities": [
+            {
+                "category": "SistemaOperativo",
+                "offset": 52,
+                "length": 27
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuántas pulgadas tiene la pantalla del Dell XPS 14 9440U7? Pantalla táctil de 14,5\"",
+        "entities": [
+            {
+                "category": "Pulgadas",
+                "offset": 60,
+                "length": 24
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuál es la tarjeta gráfica del Dell XPS 14 9440U7? Modelo gráfica Geforce RTX 4050 fabricada por Nvidia.",
+        "entities": [
+            {
+                "category": "ModeloGrafica",
+                "offset": 52,
+                "length": 31
+            },
+            {
+                "category": "FabricanteGrafica",
+                "offset": 98,
+                "length": 6
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuál es el procesador del Dell XPS 14 9440U7? Intel Core Ultra 7 155H.",
+        "entities": [
+            {
+                "category": "Procesador",
+                "offset": 47,
+                "length": 23
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Qué tipo de memoria tiene el Dell XPS 14 9440U7? Tipo Soporte 1 SSD.",
+        "entities": [
+            {
+                "category": "TipoMemoria",
+                "offset": 50,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuánto pesa el Dell XPS 14 9440U7? Peso sin embalaje 1,74 kg.",
+        "entities": [
+            {
+                "category": "Peso",
+                "offset": 36,
+                "length": 25
+            }
+        ]
+    },
+    {
+        "intent": "BuscarOrdenador",
+        "language": "es-es",
+        "text": "Necesito un portátil con Modelo de procesador 258V y RAM Instalada 32, que tenga Disco duro 1.000.",
+        "entities": [
+            {
+                "category": "ModeloProcesador",
+                "offset": 25,
+                "length": 25
+            },
+            {
+                "category": "MemoriaRAM",
+                "offset": 53,
+                "length": 16
+            },
+            {
+                "category": "CapacidadMemoria",
+                "offset": 81,
+                "length": 16
+            }
+        ]
+    },
+    {
+        "intent": "CompararOrdenadores",
+        "language": "es-es",
+        "text": "Quiero comprar el Dell XPS 13 9350U7 de color Color Plata que cuesta 2.303,03 €.",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 18,
+                "length": 18
+            },
+            {
+                "category": "Color",
+                "offset": 46,
+                "length": 11
+            },
+            {
+                "category": "Precio",
+                "offset": 69,
+                "length": 10
+            }
+        ]
+    },
+    {
+        "intent": "HacerPedido",
+        "language": "es-es",
+        "text": "Voy a hacer un pedido del Dell XPS 13 9350U7 con código Código: FMDDY.",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 26,
+                "length": 18
+            },
+            {
+                "category": "CodigoProducto",
+                "offset": 56,
+                "length": 13
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Qué sistema operativo tiene el Dell XPS 13 9350U7? Version S.O. Windows 11 Pro",
+        "entities": [
+            {
+                "category": "SistemaOperativo",
+                "offset": 52,
+                "length": 27
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuántas pulgadas tiene la pantalla del Dell XPS 13 9350U7? Tamaño pantalla 13,4",
+        "entities": [
+            {
+                "category": "Pulgadas",
+                "offset": 60,
+                "length": 20
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuál es la tarjeta gráfica del Dell XPS 13 9350U7? Modelo gráfica Intel Arc Graphics fabricada por Intel.",
+        "entities": [
+            {
+                "category": "ModeloGrafica",
+                "offset": 52,
+                "length": 33
+            },
+            {
+                "category": "FabricanteGrafica",
+                "offset": 67,
+                "length": 5
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuál es el procesador del Dell XPS 13 9350U7? Familia Procesador Intel Core Ultra 7.",
+        "entities": [
+            {
+                "category": "Procesador",
+                "offset": 47,
+                "length": 37
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Qué tipo de memoria tiene el Dell XPS 13 9350U7? Tipo Soporte 1 SSD.",
+        "entities": [
+            {
+                "category": "TipoMemoria",
+                "offset": 50,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuánto pesa el Dell XPS 13 9350U7? Peso sin embalaje 1,18.",
+        "entities": [
+            {
+                "category": "Peso",
+                "offset": 36,
+                "length": 22
+            }
+        ]
+    },
+    {
+        "intent": "BuscarOrdenador",
+        "language": "es-es",
+        "text": "Necesito un portátil con Modelo de procesador 164U y RAM Instalada 32 GB, que tenga Disco duro 1.024 GB.",
+        "entities": [
+            {
+                "category": "ModeloProcesador",
+                "offset": 25,
+                "length": 25
+            },
+            {
+                "category": "MemoriaRAM",
+                "offset": 53,
+                "length": 19
+            },
+            {
+                "category": "CapacidadMemoria",
+                "offset": 84,
+                "length": 19
+            }
+        ]
+    },
+    {
+        "intent": "CompararOrdenadores",
+        "language": "es-es",
+        "text": "Quiero comprar el Dell Latitude 9450 2-in-1 de color Color Gris que cuesta 2.542,61 €.",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 18,
+                "length": 25
+            },
+            {
+                "category": "Color",
+                "offset": 53,
+                "length": 10
+            },
+            {
+                "category": "Precio",
+                "offset": 75,
+                "length": 10
+            }
+        ]
+    },
+    {
+        "intent": "HacerPedido",
+        "language": "es-es",
+        "text": "Voy a hacer un pedido del Dell Latitude 9450 2-in-1 con código Código: GN4X0.",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 26,
+                "length": 25
+            },
+            {
+                "category": "CodigoProducto",
+                "offset": 63,
+                "length": 13
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Qué sistema operativo tiene el Dell Latitude 9450 2-in-1? Version S.O. Windows 11 Pro",
+        "entities": [
+            {
+                "category": "SistemaOperativo",
+                "offset": 59,
+                "length": 27
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuántas pulgadas tiene la pantalla del Dell Latitude 9450 2-in-1? Tamaño pantalla 14\"",
+        "entities": [
+            {
+                "category": "Pulgadas",
+                "offset": 67,
+                "length": 19
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuál es la tarjeta gráfica del Dell Latitude 9450 2-in-1? Modelo gráfica UHD Graphics fabricada por Intel.",
+        "entities": [
+            {
+                "category": "ModeloGrafica",
+                "offset": 59,
+                "length": 27
+            },
+            {
+                "category": "FabricanteGrafica",
+                "offset": 101,
+                "length": 5
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuál es el procesador del Dell Latitude 9450 2-in-1? Familia Procesador Intel Core Ultra 7.",
+        "entities": [
+            {
+                "category": "Procesador",
+                "offset": 54,
+                "length": 37
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Qué tipo de memoria tiene el Dell Latitude 9450 2-in-1? Tipo Soporte 1 SSD.",
+        "entities": [
+            {
+                "category": "TipoMemoria",
+                "offset": 57,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuánto pesa el Dell Latitude 9450 2-in-1? Peso sin embalaje 1,54 kg.",
+        "entities": [
+            {
+                "category": "Peso",
+                "offset": 43,
+                "length": 25
+            }
+        ]
+    },
+    {
+        "intent": "BuscarOrdenador",
+        "language": "es-es",
+        "text": "Necesito un portátil con Modelo de procesador M4 Max y RAM Instalada 36 GB, que tenga 1 TB de almacenamiento SSD.",
+        "entities": [
+            {
+                "category": "ModeloProcesador",
+                "offset": 25,
+                "length": 27
+            },
+            {
+                "category": "MemoriaRAM",
+                "offset": 55,
+                "length": 19
+            },
+            {
+                "category": "CapacidadMemoria",
+                "offset": 86,
+                "length": 26
+            }
+        ]
+    },
+    {
+        "intent": "BuscarOrdenador",
+        "language": "es-es",
+        "text": "Estoy buscando un ordenador con Fabricante procesador Apple y al menos 1 TB de almacenamiento SSD.",
+        "entities": [
+            {
+                "category": "FabricanteProcesador",
+                "offset": 32,
+                "length": 27
+            },
+            {
+                "category": "CapacidadMemoria",
+                "offset": 71,
+                "length": 26
+            }
+        ]
+    },
+    {
+        "intent": "CompararOrdenadores",
+        "language": "es-es",
+        "text": "Quiero comprar el MacBook Pro de 14 pulgadas de color Color Plata que cuesta 3.849,00 €.",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 18,
+                "length": 26
+            },
+            {
+                "category": "Color",
+                "offset": 54,
+                "length": 11
+            },
+            {
+                "category": "Precio",
+                "offset": 77,
+                "length": 10
+            }
+        ]
+    },
+    {
+        "intent": "HacerPedido",
+        "language": "es-es",
+        "text": "Voy a hacer un pedido del MacBook Pro de 14 pulgadas con código Código: MX2G3Y/A.",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 26,
+                "length": 26
+            },
+            {
+                "category": "CodigoProducto",
+                "offset": 64,
+                "length": 16
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Qué sistema operativo tiene el MacBook Pro de 14 pulgadas? Version S.O. macOS Ventura",
+        "entities": [
+            {
+                "category": "SistemaOperativo",
+                "offset": 60,
+                "length": 26
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuántas pulgadas tiene la pantalla del MacBook Pro de 14 pulgadas? Tamaño pantalla 14,2 \"",
+        "entities": [
+            {
+                "category": "Pulgadas",
+                "offset": 68,
+                "length": 22
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuál es la tarjeta gráfica del MacBook Pro de 14 pulgadas? Modelo de gráfica no especificado fabricada por Apple.",
+        "entities": [
+            {
+                "category": "ModeloGrafica",
+                "offset": 60,
+                "length": 33
+            },
+            {
+                "category": "FabricanteGrafica",
+                "offset": 108,
+                "length": 5
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuál es el procesador del MacBook Pro de 14 pulgadas? Familia Procesador Apple M.",
+        "entities": [
+            {
+                "category": "Procesador",
+                "offset": 55,
+                "length": 26
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Qué tipo de memoria tiene el MacBook Pro de 14 pulgadas? Tipo Soporte 1 SSD.",
+        "entities": [
+            {
+                "category": "TipoMemoria",
+                "offset": 58,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuánto pesa el MacBook Pro de 14 pulgadas? Peso no especificado.",
+        "entities": [
+            {
+                "category": "Peso",
+                "offset": 44,
+                "length": 20
+            }
+        ]
+    },
+    {
+        "intent": "BuscarOrdenador",
+        "language": "es-es",
+        "text": "Necesito un portátil con Modelo de procesador 155H y RAM Instalada 16 GB, que tenga Disco duro 1.000 GB.",
+        "entities": [
+            {
+                "category": "ModeloProcesador",
+                "offset": 25,
+                "length": 25
+            },
+            {
+                "category": "MemoriaRAM",
+                "offset": 53,
+                "length": 19
+            },
+            {
+                "category": "CapacidadMemoria",
+                "offset": 84,
+                "length": 19
+            }
+        ]
+    },
+    {
+        "intent": "CompararOrdenadores",
+        "language": "es-es",
+        "text": "Quiero comprar el Galaxy Book4 ULTRA de color Color Moonstone Grey que cuesta 2.425,46 €.",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 18,
+                "length": 18
+            },
+            {
+                "category": "Color",
+                "offset": 46,
+                "length": 20
+            },
+            {
+                "category": "Precio",
+                "offset": 78,
+                "length": 10
+            }
+        ]
+    },
+    {
+        "intent": "HacerPedido",
+        "language": "es-es",
+        "text": "Voy a hacer un pedido del Galaxy Book4 ULTRA con código Código: NP960XGL-XG1ES.",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 26,
+                "length": 18
+            },
+            {
+                "category": "CodigoProducto",
+                "offset": 56,
+                "length": 22
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Qué sistema operativo tiene el Galaxy Book4 ULTRA? Sistema operativo desconocido",
+        "entities": [
+            {
+                "category": "SistemaOperativo",
+                "offset": 52,
+                "length": 29
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Este ordenador tiene webcam? Información de webcam no disponible",
+        "entities": [
+            {
+                "category": "WebCamIncluida",
+                "offset": 30,
+                "length": 35
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuántas pulgadas tiene la pantalla del Galaxy Book4 ULTRA? Tamaño pantalla 16\"",
+        "entities": [
+            {
+                "category": "Pulgadas",
+                "offset": 60,
+                "length": 19
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuál es la tarjeta gráfica del Galaxy Book4 ULTRA? Modelo gráfica Geforce RTX 4050 fabricada por Nvidia.",
+        "entities": [
+            {
+                "category": "ModeloGrafica",
+                "offset": 52,
+                "length": 31
+            },
+            {
+                "category": "FabricanteGrafica",
+                "offset": 98,
+                "length": 6
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuál es el procesador del Galaxy Book4 ULTRA? Familia Procesador Intel Core Ultra 7.",
+        "entities": [
+            {
+                "category": "Procesador",
+                "offset": 47,
+                "length": 37
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Qué tipo de memoria tiene el Galaxy Book4 ULTRA? Tipo Soporte 1 SSD.",
+        "entities": [
+            {
+                "category": "TipoMemoria",
+                "offset": 50,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuánto pesa el Galaxy Book4 ULTRA? Peso sin embalaje 1,86 kg.",
+        "entities": [
+            {
+                "category": "Peso",
+                "offset": 36,
+                "length": 25
+            }
+        ]
+    },
+    {
+        "intent": "BuscarOrdenador",
+        "language": "es-es",
+        "text": "Necesito un portátil con Modelo de procesador 185H y RAM Instalada 32 GB, que tenga Disco duro 1.000 GB.",
+        "entities": [
+            {
+                "category": "ModeloProcesador",
+                "offset": 25,
+                "length": 25
+            },
+            {
+                "category": "MemoriaRAM",
+                "offset": 53,
+                "length": 19
+            },
+            {
+                "category": "CapacidadMemoria",
+                "offset": 84,
+                "length": 19
+            }
+        ]
+    },
+    {
+        "intent": "CompararOrdenadores",
+        "language": "es-es",
+        "text": "Quiero comprar el Galaxy Book4 ULTRA de color Color Moonstone Grey que cuesta 3.247,24 €.",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 18,
+                "length": 18
+            },
+            {
+                "category": "Color",
+                "offset": 46,
+                "length": 20
+            },
+            {
+                "category": "Precio",
+                "offset": 78,
+                "length": 10
+            }
+        ]
+    },
+    {
+        "intent": "HacerPedido",
+        "language": "es-es",
+        "text": "Voy a hacer un pedido del Galaxy Book4 ULTRA con código Código: NP960XGL-XG2ES.",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 26,
+                "length": 18
+            },
+            {
+                "category": "CodigoProducto",
+                "offset": 56,
+                "length": 22
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Qué sistema operativo tiene el Galaxy Book4 ULTRA? Version S.O. Windows 11 Home",
+        "entities": [
+            {
+                "category": "SistemaOperativo",
+                "offset": 52,
+                "length": 28
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuál es la tarjeta gráfica del Galaxy Book4 ULTRA? Modelo gráfica Geforce RTX 4070 fabricada por Nvidia.",
+        "entities": [
+            {
+                "category": "ModeloGrafica",
+                "offset": 52,
+                "length": 31
+            },
+            {
+                "category": "FabricanteGrafica",
+                "offset": 98,
+                "length": 6
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuál es el procesador del Galaxy Book4 ULTRA? Intel Core Ultra 9.",
+        "entities": [
+            {
+                "category": "Procesador",
+                "offset": 47,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "BuscarOrdenador",
+        "language": "es-es",
+        "text": "Necesito un portátil con Modelo de procesador i7-165U y RAM Instalada 32 GB, que tenga Disco duro 512 GB.",
+        "entities": [
+            {
+                "category": "ModeloProcesador",
+                "offset": 25,
+                "length": 28
+            },
+            {
+                "category": "MemoriaRAM",
+                "offset": 56,
+                "length": 19
+            },
+            {
+                "category": "CapacidadMemoria",
+                "offset": 87,
+                "length": 17
+            }
+        ]
+    },
+    {
+        "intent": "BuscarOrdenador",
+        "language": "es-es",
+        "text": "Estoy buscando un ordenador con Fabricante procesador Intel y al menos Disco duro 512 GB.",
+        "entities": [
+            {
+                "category": "FabricanteProcesador",
+                "offset": 32,
+                "length": 27
+            },
+            {
+                "category": "CapacidadMemoria",
+                "offset": 71,
+                "length": 17
+            }
+        ]
+    },
+    {
+        "intent": "CompararOrdenadores",
+        "language": "es-es",
+        "text": "Quiero comprar el Microsoft Surface PRO 10 para Empresas: de color Color Gris que cuesta 2.311,45 €.",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 18,
+                "length": 39
+            },
+            {
+                "category": "Color",
+                "offset": 67,
+                "length": 10
+            },
+            {
+                "category": "Precio",
+                "offset": 89,
+                "length": 10
+            }
+        ]
+    },
+    {
+        "intent": "HacerPedido",
+        "language": "es-es",
+        "text": "Voy a hacer un pedido del Microsoft Surface PRO 10 para Empresas: con código Código: Y6B-00005.",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 26,
+                "length": 39
+            },
+            {
+                "category": "CodigoProducto",
+                "offset": 77,
+                "length": 17
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Qué sistema operativo tiene el Microsoft Surface PRO 10 para Empresas:? Version S.O. Windows 11 Pro",
+        "entities": [
+            {
+                "category": "SistemaOperativo",
+                "offset": 73,
+                "length": 27
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuántas pulgadas tiene la pantalla del Microsoft Surface PRO 10 para Empresas:? Tamaño pantalla 13\"",
+        "entities": [
+            {
+                "category": "Pulgadas",
+                "offset": 81,
+                "length": 19
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuál es la tarjeta gráfica del Microsoft Surface PRO 10 para Empresas:? Modelo gráfica Intel Graphics fabricada por Intel.",
+        "entities": [
+            {
+                "category": "ModeloGrafica",
+                "offset": 73,
+                "length": 29
+            },
+            {
+                "category": "FabricanteGrafica",
+                "offset": 88,
+                "length": 5
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuál es el procesador del Microsoft Surface PRO 10 para Empresas:? Intel Core Ultra 7.",
+        "entities": [
+            {
+                "category": "Procesador",
+                "offset": 68,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Qué tipo de memoria tiene el Microsoft Surface PRO 10 para Empresas:? Tipo Soporte 1 Hybrid-HDD.",
+        "entities": [
+            {
+                "category": "TipoMemoria",
+                "offset": 71,
+                "length": 25
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuánto pesa el Microsoft Surface PRO 10 para Empresas:? Peso sin embalaje 0,88 kg.",
+        "entities": [
+            {
+                "category": "Peso",
+                "offset": 57,
+                "length": 25
+            }
+        ]
+    },
+    {
+        "intent": "BuscarOrdenador",
+        "language": "es-es",
+        "text": "Necesito un portátil con Modelo de procesador i7-13800H y RAM Instalada 32 GB, que tenga Disco duro 1.000 GB.",
+        "entities": [
+            {
+                "category": "ModeloProcesador",
+                "offset": 25,
+                "length": 30
+            },
+            {
+                "category": "MemoriaRAM",
+                "offset": 58,
+                "length": 19
+            },
+            {
+                "category": "CapacidadMemoria",
+                "offset": 89,
+                "length": 19
+            }
+        ]
+    },
+    {
+        "intent": "CompararOrdenadores",
+        "language": "es-es",
+        "text": "Quiero comprar el Microsoft Surface Laptop Studio 2 de color Color Gris que cuesta 3.785,26 €.",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 18,
+                "length": 33
+            },
+            {
+                "category": "Color",
+                "offset": 61,
+                "length": 10
+            },
+            {
+                "category": "Precio",
+                "offset": 83,
+                "length": 10
+            }
+        ]
+    },
+    {
+        "intent": "HacerPedido",
+        "language": "es-es",
+        "text": "Voy a hacer un pedido del Microsoft Surface Laptop Studio 2 con código Código: Z1T-00012.",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 26,
+                "length": 33
+            },
+            {
+                "category": "CodigoProducto",
+                "offset": 71,
+                "length": 17
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Qué sistema operativo tiene el Microsoft Surface Laptop Studio 2? Version S.O. Windows 11 Pro",
+        "entities": [
+            {
+                "category": "SistemaOperativo",
+                "offset": 67,
+                "length": 27
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuántas pulgadas tiene la pantalla del Microsoft Surface Laptop Studio 2? 14,4\",",
+        "entities": [
+            {
+                "category": "Pulgadas",
+                "offset": 75,
+                "length": 6
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuál es la tarjeta gráfica del Microsoft Surface Laptop Studio 2? Modelo gráfica Geforce RTX 2050 fabricada por Intel.",
+        "entities": [
+            {
+                "category": "ModeloGrafica",
+                "offset": 67,
+                "length": 31
+            },
+            {
+                "category": "FabricanteGrafica",
+                "offset": 113,
+                "length": 5
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuál es el procesador del Microsoft Surface Laptop Studio 2? Procesador Intel® de 13ª generación Intel Core i7-13800H.",
+        "entities": [
+            {
+                "category": "Procesador",
+                "offset": 62,
+                "length": 56
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Qué tipo de memoria tiene el Microsoft Surface Laptop Studio 2? Tipo Soporte 1 SSD.",
+        "entities": [
+            {
+                "category": "TipoMemoria",
+                "offset": 65,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuánto pesa el Microsoft Surface Laptop Studio 2? Peso sin embalaje 1,98 kg.",
+        "entities": [
+            {
+                "category": "Peso",
+                "offset": 51,
+                "length": 25
+            }
+        ]
+    },
+    {
+        "intent": "BuscarOrdenador",
+        "language": "es-es",
+        "text": "Necesito un portátil con Modelo de procesador 165H y 64 GB de RAM,, que tenga 1 TB de capacidad en disco duro,.",
+        "entities": [
+            {
+                "category": "ModeloProcesador",
+                "offset": 25,
+                "length": 25
+            },
+            {
+                "category": "MemoriaRAM",
+                "offset": 53,
+                "length": 13
+            },
+            {
+                "category": "CapacidadMemoria",
+                "offset": 78,
+                "length": 32
+            }
+        ]
+    },
+    {
+        "intent": "BuscarOrdenador",
+        "language": "es-es",
+        "text": "Estoy buscando un ordenador con Fabricante procesador Intel y al menos 1 TB de capacidad en disco duro,.",
+        "entities": [
+            {
+                "category": "FabricanteProcesador",
+                "offset": 32,
+                "length": 27
+            },
+            {
+                "category": "CapacidadMemoria",
+                "offset": 71,
+                "length": 32
+            }
+        ]
+    },
+    {
+        "intent": "CompararOrdenadores",
+        "language": "es-es",
+        "text": "Quiero comprar el Microsoft Surface Laptop 6 de color Color Negro que cuesta 2.528,75 €.",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 18,
+                "length": 26
+            },
+            {
+                "category": "Color",
+                "offset": 54,
+                "length": 11
+            },
+            {
+                "category": "Precio",
+                "offset": 77,
+                "length": 10
+            }
+        ]
+    },
+    {
+        "intent": "HacerPedido",
+        "language": "es-es",
+        "text": "Voy a hacer un pedido del Microsoft Surface Laptop 6 con código Código: ZKB-00012.",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 26,
+                "length": 26
+            },
+            {
+                "category": "CodigoProducto",
+                "offset": 64,
+                "length": 17
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Qué sistema operativo tiene el Microsoft Surface Laptop 6? Windows 11,",
+        "entities": [
+            {
+                "category": "SistemaOperativo",
+                "offset": 60,
+                "length": 11
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuántas pulgadas tiene la pantalla del Microsoft Surface Laptop 6? 13,5 pulgadas 15 pulgadas",
+        "entities": [
+            {
+                "category": "Pulgadas",
+                "offset": 68,
+                "length": 25
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuál es la tarjeta gráfica del Microsoft Surface Laptop 6? Modelo gráfica Intel Arc Graphics fabricada por Intel.",
+        "entities": [
+            {
+                "category": "ModeloGrafica",
+                "offset": 60,
+                "length": 33
+            },
+            {
+                "category": "FabricanteGrafica",
+                "offset": 75,
+                "length": 5
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuál es el procesador del Microsoft Surface Laptop 6? procesador Intel ® Core™ Ultra 5 135H procesador Intel ® Core™ Ultra 7 165H,.",
+        "entities": [
+            {
+                "category": "Procesador",
+                "offset": 55,
+                "length": 76
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Qué tipo de memoria tiene el Microsoft Surface Laptop 6? Tipo Soporte 1 SSD.",
+        "entities": [
+            {
+                "category": "TipoMemoria",
+                "offset": 58,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "ConsultasAdicionales",
+        "language": "es-es",
+        "text": "¿Cuánto pesa el Microsoft Surface Laptop 6? peso de 1,38 kg 1,68 kg,.",
+        "entities": [
+            {
+                "category": "Peso",
+                "offset": 44,
+                "length": 24
+            }
+        ]
+    }
+]
