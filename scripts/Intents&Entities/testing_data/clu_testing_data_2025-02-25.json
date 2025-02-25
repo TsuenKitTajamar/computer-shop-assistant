@@ -1,0 +1,2176 @@
+[
+    {
+        "intent": "comprarOrdenador",
+        "language": "es-es",
+        "text": "¿Tienes un portátil con Modelo de procesador i7-1360P y RAM Instalada 32 GB de RAM?",
+        "entities": [
+            {
+                "category": "ModeloProcesador",
+                "offset": 24,
+                "length": 29
+            },
+            {
+                "category": "MemoriaRAM",
+                "offset": 56,
+                "length": 19
+            }
+        ]
+    },
+    {
+        "intent": "comprarOrdenador",
+        "language": "es-es",
+        "text": "Necesito un ordenador con al menos Disco duro 1.000 GB de almacenamiento.",
+        "entities": [
+            {
+                "category": "CapacidadMemoria",
+                "offset": 35,
+                "length": 19
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es la diferencia entre el LG gram 16Z90R/ y otros modelos?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 32,
+                "length": 15
+            }
+        ]
+    },
+    {
+        "intent": "comprarOrdenador",
+        "language": "es-es",
+        "text": "Quiero hacer un pedido del LG gram 16Z90R/ en color Color Negro.",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 27,
+                "length": 15
+            },
+            {
+                "category": "Color",
+                "offset": 52,
+                "length": 11
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿El LG gram 16Z90R/ tiene Version S.O. Windows 11 Home como sistema operativo?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 4,
+                "length": 15
+            },
+            {
+                "category": "SistemaOperativo",
+                "offset": 26,
+                "length": 28
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿El LG gram 16Z90R/ incluye webcam?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 4,
+                "length": 15
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuántas pulgadas tiene la pantalla del LG gram 16Z90R/?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 40,
+                "length": 15
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Qué tarjeta gráfica tiene el LG gram 16Z90R/?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 30,
+                "length": 15
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿El LG gram 16Z90R/ tiene un procesador Familia Procesador Intel Core i7?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 4,
+                "length": 15
+            },
+            {
+                "category": "Procesador",
+                "offset": 40,
+                "length": 32
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Qué tipo de memoria usa el LG gram 16Z90R/?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 28,
+                "length": 15
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuánto pesa el LG gram 16Z90R/?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 16,
+                "length": 15
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es el precio del LG gram 16Z90R/?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 23,
+                "length": 15
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es la capacidad de memoria del LG gram 16Z90R/?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 37,
+                "length": 15
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Quién es el fabricante del procesador del LG gram 16Z90R/?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 43,
+                "length": 15
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es el código del producto LG gram 16Z90R/?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 32,
+                "length": 15
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es la diferencia entre el LG gram 17Z90R y otros modelos?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 32,
+                "length": 14
+            }
+        ]
+    },
+    {
+        "intent": "comprarOrdenador",
+        "language": "es-es",
+        "text": "Quiero hacer un pedido del LG gram 17Z90R en color Color Negro.",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 27,
+                "length": 14
+            },
+            {
+                "category": "Color",
+                "offset": 51,
+                "length": 11
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿El LG gram 17Z90R tiene Version S.O. Windows 11 Home como sistema operativo?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 4,
+                "length": 14
+            },
+            {
+                "category": "SistemaOperativo",
+                "offset": 25,
+                "length": 28
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿El LG gram 17Z90R incluye webcam?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 4,
+                "length": 14
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuántas pulgadas tiene la pantalla del LG gram 17Z90R?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 40,
+                "length": 14
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Qué tarjeta gráfica tiene el LG gram 17Z90R?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 30,
+                "length": 14
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿El LG gram 17Z90R tiene un procesador Familia Procesador Intel Core i7?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 4,
+                "length": 14
+            },
+            {
+                "category": "Procesador",
+                "offset": 39,
+                "length": 32
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Qué tipo de memoria usa el LG gram 17Z90R?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 28,
+                "length": 14
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuánto pesa el LG gram 17Z90R?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 16,
+                "length": 14
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es el precio del LG gram 17Z90R?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 23,
+                "length": 14
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es la capacidad de memoria del LG gram 17Z90R?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 37,
+                "length": 14
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Quién es el fabricante del procesador del LG gram 17Z90R?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 43,
+                "length": 14
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es el código del producto LG gram 17Z90R?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 32,
+                "length": 14
+            }
+        ]
+    },
+    {
+        "intent": "comprarOrdenador",
+        "language": "es-es",
+        "text": "¿Tienes un portátil con Modelo de procesador 155U y RAM Instalada 32 GB de RAM?",
+        "entities": [
+            {
+                "category": "ModeloProcesador",
+                "offset": 24,
+                "length": 25
+            },
+            {
+                "category": "MemoriaRAM",
+                "offset": 52,
+                "length": 19
+            }
+        ]
+    },
+    {
+        "intent": "comprarOrdenador",
+        "language": "es-es",
+        "text": "Necesito un ordenador con al menos Disco duro 1.024 GB de almacenamiento.",
+        "entities": [
+            {
+                "category": "CapacidadMemoria",
+                "offset": 35,
+                "length": 19
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es la diferencia entre el Lenovo ThinkPad X1 2-in-1 Gen 9 y otros modelos?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 32,
+                "length": 31
+            }
+        ]
+    },
+    {
+        "intent": "comprarOrdenador",
+        "language": "es-es",
+        "text": "Quiero hacer un pedido del Lenovo ThinkPad X1 2-in-1 Gen 9 en color Color Gris.",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 27,
+                "length": 31
+            },
+            {
+                "category": "Color",
+                "offset": 68,
+                "length": 10
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿El Lenovo ThinkPad X1 2-in-1 Gen 9 tiene Version S.O. Windows 11 Pro como sistema operativo?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 4,
+                "length": 31
+            },
+            {
+                "category": "SistemaOperativo",
+                "offset": 42,
+                "length": 27
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿El Lenovo ThinkPad X1 2-in-1 Gen 9 incluye webcam?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 4,
+                "length": 31
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuántas pulgadas tiene la pantalla del Lenovo ThinkPad X1 2-in-1 Gen 9?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 40,
+                "length": 31
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Qué tarjeta gráfica tiene el Lenovo ThinkPad X1 2-in-1 Gen 9?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 30,
+                "length": 31
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿El Lenovo ThinkPad X1 2-in-1 Gen 9 tiene un procesador Familia Procesador Intel Core Ultra 7?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 4,
+                "length": 31
+            },
+            {
+                "category": "Procesador",
+                "offset": 56,
+                "length": 37
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Qué tipo de memoria usa el Lenovo ThinkPad X1 2-in-1 Gen 9?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 28,
+                "length": 31
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuánto pesa el Lenovo ThinkPad X1 2-in-1 Gen 9?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 16,
+                "length": 31
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es el precio del Lenovo ThinkPad X1 2-in-1 Gen 9?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 23,
+                "length": 31
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es la capacidad de memoria del Lenovo ThinkPad X1 2-in-1 Gen 9?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 37,
+                "length": 31
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Quién es el fabricante del procesador del Lenovo ThinkPad X1 2-in-1 Gen 9?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 43,
+                "length": 31
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es el código del producto Lenovo ThinkPad X1 2-in-1 Gen 9?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 32,
+                "length": 31
+            }
+        ]
+    },
+    {
+        "intent": "comprarOrdenador",
+        "language": "es-es",
+        "text": "¿Tienes un portátil con Modelo de procesador 155H y RAM Instalada 32 de RAM?",
+        "entities": [
+            {
+                "category": "ModeloProcesador",
+                "offset": 24,
+                "length": 25
+            },
+            {
+                "category": "MemoriaRAM",
+                "offset": 52,
+                "length": 16
+            }
+        ]
+    },
+    {
+        "intent": "comprarOrdenador",
+        "language": "es-es",
+        "text": "Necesito un ordenador con al menos Disco duro 1.000 de almacenamiento.",
+        "entities": [
+            {
+                "category": "CapacidadMemoria",
+                "offset": 35,
+                "length": 16
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es la diferencia entre el Dell XPS 14 9440U7 y otros modelos?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 32,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "comprarOrdenador",
+        "language": "es-es",
+        "text": "Quiero hacer un pedido del Dell XPS 14 9440U7 en color Color Gris.",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 27,
+                "length": 18
+            },
+            {
+                "category": "Color",
+                "offset": 55,
+                "length": 10
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿El Dell XPS 14 9440U7 tiene Version S.O. Windows 11 Pro como sistema operativo?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 4,
+                "length": 18
+            },
+            {
+                "category": "SistemaOperativo",
+                "offset": 29,
+                "length": 27
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿El Dell XPS 14 9440U7 incluye webcam?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 4,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuántas pulgadas tiene la pantalla del Dell XPS 14 9440U7?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 40,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Qué tarjeta gráfica tiene el Dell XPS 14 9440U7?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 30,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿El Dell XPS 14 9440U7 tiene un procesador Intel Core Ultra 7 155H?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 4,
+                "length": 18
+            },
+            {
+                "category": "Procesador",
+                "offset": 43,
+                "length": 23
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Qué tipo de memoria usa el Dell XPS 14 9440U7?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 28,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuánto pesa el Dell XPS 14 9440U7?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 16,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es el precio del Dell XPS 14 9440U7?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 23,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es la capacidad de memoria del Dell XPS 14 9440U7?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 37,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Quién es el fabricante del procesador del Dell XPS 14 9440U7?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 43,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es el código del producto Dell XPS 14 9440U7?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 32,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "comprarOrdenador",
+        "language": "es-es",
+        "text": "¿Tienes un portátil con Modelo de procesador 258V y RAM Instalada 32 de RAM?",
+        "entities": [
+            {
+                "category": "ModeloProcesador",
+                "offset": 24,
+                "length": 25
+            },
+            {
+                "category": "MemoriaRAM",
+                "offset": 52,
+                "length": 16
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es la diferencia entre el Dell XPS 13 9350U7 y otros modelos?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 32,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "comprarOrdenador",
+        "language": "es-es",
+        "text": "Quiero hacer un pedido del Dell XPS 13 9350U7 en color Color Plata.",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 27,
+                "length": 18
+            },
+            {
+                "category": "Color",
+                "offset": 55,
+                "length": 11
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿El Dell XPS 13 9350U7 tiene Version S.O. Windows 11 Pro como sistema operativo?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 4,
+                "length": 18
+            },
+            {
+                "category": "SistemaOperativo",
+                "offset": 29,
+                "length": 27
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿El Dell XPS 13 9350U7 incluye webcam?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 4,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuántas pulgadas tiene la pantalla del Dell XPS 13 9350U7?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 40,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Qué tarjeta gráfica tiene el Dell XPS 13 9350U7?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 30,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿El Dell XPS 13 9350U7 tiene un procesador Familia Procesador Intel Core Ultra 7?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 4,
+                "length": 18
+            },
+            {
+                "category": "Procesador",
+                "offset": 43,
+                "length": 37
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Qué tipo de memoria usa el Dell XPS 13 9350U7?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 28,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuánto pesa el Dell XPS 13 9350U7?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 16,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es el precio del Dell XPS 13 9350U7?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 23,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es la capacidad de memoria del Dell XPS 13 9350U7?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 37,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Quién es el fabricante del procesador del Dell XPS 13 9350U7?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 43,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es el código del producto Dell XPS 13 9350U7?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 32,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "comprarOrdenador",
+        "language": "es-es",
+        "text": "¿Tienes un portátil con Modelo de procesador 164U y RAM Instalada 32 GB de RAM?",
+        "entities": [
+            {
+                "category": "ModeloProcesador",
+                "offset": 24,
+                "length": 25
+            },
+            {
+                "category": "MemoriaRAM",
+                "offset": 52,
+                "length": 19
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es la diferencia entre el Dell Latitude 9450 2-in-1 y otros modelos?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 32,
+                "length": 25
+            }
+        ]
+    },
+    {
+        "intent": "comprarOrdenador",
+        "language": "es-es",
+        "text": "Quiero hacer un pedido del Dell Latitude 9450 2-in-1 en color Color Gris.",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 27,
+                "length": 25
+            },
+            {
+                "category": "Color",
+                "offset": 62,
+                "length": 10
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿El Dell Latitude 9450 2-in-1 tiene Version S.O. Windows 11 Pro como sistema operativo?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 4,
+                "length": 25
+            },
+            {
+                "category": "SistemaOperativo",
+                "offset": 36,
+                "length": 27
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿El Dell Latitude 9450 2-in-1 incluye webcam?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 4,
+                "length": 25
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuántas pulgadas tiene la pantalla del Dell Latitude 9450 2-in-1?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 40,
+                "length": 25
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Qué tarjeta gráfica tiene el Dell Latitude 9450 2-in-1?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 30,
+                "length": 25
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿El Dell Latitude 9450 2-in-1 tiene un procesador Familia Procesador Intel Core Ultra 7?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 4,
+                "length": 25
+            },
+            {
+                "category": "Procesador",
+                "offset": 50,
+                "length": 37
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Qué tipo de memoria usa el Dell Latitude 9450 2-in-1?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 28,
+                "length": 25
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuánto pesa el Dell Latitude 9450 2-in-1?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 16,
+                "length": 25
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es el precio del Dell Latitude 9450 2-in-1?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 23,
+                "length": 25
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es la capacidad de memoria del Dell Latitude 9450 2-in-1?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 37,
+                "length": 25
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Quién es el fabricante del procesador del Dell Latitude 9450 2-in-1?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 43,
+                "length": 25
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es el código del producto Dell Latitude 9450 2-in-1?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 32,
+                "length": 25
+            }
+        ]
+    },
+    {
+        "intent": "comprarOrdenador",
+        "language": "es-es",
+        "text": "¿Tienes un portátil con Modelo de procesador M4 Max y RAM Instalada 36 GB de RAM?",
+        "entities": [
+            {
+                "category": "ModeloProcesador",
+                "offset": 24,
+                "length": 27
+            },
+            {
+                "category": "MemoriaRAM",
+                "offset": 54,
+                "length": 19
+            }
+        ]
+    },
+    {
+        "intent": "comprarOrdenador",
+        "language": "es-es",
+        "text": "Necesito un ordenador con al menos 1 TB de almacenamiento SSD de almacenamiento.",
+        "entities": [
+            {
+                "category": "CapacidadMemoria",
+                "offset": 35,
+                "length": 26
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es la diferencia entre el MacBook Pro de 14 pulgadas y otros modelos?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 32,
+                "length": 26
+            }
+        ]
+    },
+    {
+        "intent": "comprarOrdenador",
+        "language": "es-es",
+        "text": "Quiero hacer un pedido del MacBook Pro de 14 pulgadas en color Color Plata.",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 27,
+                "length": 26
+            },
+            {
+                "category": "Color",
+                "offset": 63,
+                "length": 11
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿El MacBook Pro de 14 pulgadas tiene Version S.O. macOS Ventura como sistema operativo?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 4,
+                "length": 26
+            },
+            {
+                "category": "SistemaOperativo",
+                "offset": 37,
+                "length": 26
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿El MacBook Pro de 14 pulgadas incluye webcam?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 4,
+                "length": 26
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuántas pulgadas tiene la pantalla del MacBook Pro de 14 pulgadas?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 40,
+                "length": 26
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Qué tarjeta gráfica tiene el MacBook Pro de 14 pulgadas?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 30,
+                "length": 26
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿El MacBook Pro de 14 pulgadas tiene un procesador Familia Procesador Apple M?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 4,
+                "length": 26
+            },
+            {
+                "category": "Procesador",
+                "offset": 51,
+                "length": 26
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Qué tipo de memoria usa el MacBook Pro de 14 pulgadas?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 28,
+                "length": 26
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuánto pesa el MacBook Pro de 14 pulgadas?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 16,
+                "length": 26
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es el precio del MacBook Pro de 14 pulgadas?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 23,
+                "length": 26
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es la capacidad de memoria del MacBook Pro de 14 pulgadas?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 37,
+                "length": 26
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Quién es el fabricante del procesador del MacBook Pro de 14 pulgadas?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 43,
+                "length": 26
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es el código del producto MacBook Pro de 14 pulgadas?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 32,
+                "length": 26
+            }
+        ]
+    },
+    {
+        "intent": "comprarOrdenador",
+        "language": "es-es",
+        "text": "¿Tienes un portátil con Modelo de procesador 155H y RAM Instalada 16 GB de RAM?",
+        "entities": [
+            {
+                "category": "ModeloProcesador",
+                "offset": 24,
+                "length": 25
+            },
+            {
+                "category": "MemoriaRAM",
+                "offset": 52,
+                "length": 19
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es la diferencia entre el Galaxy Book4 ULTRA y otros modelos?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 32,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "comprarOrdenador",
+        "language": "es-es",
+        "text": "Quiero hacer un pedido del Galaxy Book4 ULTRA en color Color Moonstone Grey.",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 27,
+                "length": 18
+            },
+            {
+                "category": "Color",
+                "offset": 55,
+                "length": 20
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿El Galaxy Book4 ULTRA tiene Sistema operativo desconocido como sistema operativo?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 4,
+                "length": 18
+            },
+            {
+                "category": "SistemaOperativo",
+                "offset": 29,
+                "length": 29
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿El Galaxy Book4 ULTRA incluye webcam?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 4,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuántas pulgadas tiene la pantalla del Galaxy Book4 ULTRA?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 40,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Qué tarjeta gráfica tiene el Galaxy Book4 ULTRA?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 30,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿El Galaxy Book4 ULTRA tiene un procesador Familia Procesador Intel Core Ultra 7?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 4,
+                "length": 18
+            },
+            {
+                "category": "Procesador",
+                "offset": 43,
+                "length": 37
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Qué tipo de memoria usa el Galaxy Book4 ULTRA?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 28,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuánto pesa el Galaxy Book4 ULTRA?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 16,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es el precio del Galaxy Book4 ULTRA?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 23,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es la capacidad de memoria del Galaxy Book4 ULTRA?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 37,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Quién es el fabricante del procesador del Galaxy Book4 ULTRA?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 43,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es el código del producto Galaxy Book4 ULTRA?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 32,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "comprarOrdenador",
+        "language": "es-es",
+        "text": "¿Tienes un portátil con Modelo de procesador 185H y RAM Instalada 32 GB de RAM?",
+        "entities": [
+            {
+                "category": "ModeloProcesador",
+                "offset": 24,
+                "length": 25
+            },
+            {
+                "category": "MemoriaRAM",
+                "offset": 52,
+                "length": 19
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿El Galaxy Book4 ULTRA tiene Version S.O. Windows 11 Home como sistema operativo?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 4,
+                "length": 18
+            },
+            {
+                "category": "SistemaOperativo",
+                "offset": 29,
+                "length": 28
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿El Galaxy Book4 ULTRA tiene un procesador Intel Core Ultra 9?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 4,
+                "length": 18
+            },
+            {
+                "category": "Procesador",
+                "offset": 43,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "comprarOrdenador",
+        "language": "es-es",
+        "text": "¿Tienes un portátil con Modelo de procesador i7-165U y RAM Instalada 32 GB de RAM?",
+        "entities": [
+            {
+                "category": "ModeloProcesador",
+                "offset": 24,
+                "length": 28
+            },
+            {
+                "category": "MemoriaRAM",
+                "offset": 55,
+                "length": 19
+            }
+        ]
+    },
+    {
+        "intent": "comprarOrdenador",
+        "language": "es-es",
+        "text": "Necesito un ordenador con al menos Disco duro 512 GB de almacenamiento.",
+        "entities": [
+            {
+                "category": "CapacidadMemoria",
+                "offset": 35,
+                "length": 17
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es la diferencia entre el Microsoft Surface PRO 10 para Empresas: y otros modelos?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 32,
+                "length": 39
+            }
+        ]
+    },
+    {
+        "intent": "comprarOrdenador",
+        "language": "es-es",
+        "text": "Quiero hacer un pedido del Microsoft Surface PRO 10 para Empresas: en color Color Gris.",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 27,
+                "length": 39
+            },
+            {
+                "category": "Color",
+                "offset": 76,
+                "length": 10
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿El Microsoft Surface PRO 10 para Empresas: tiene Version S.O. Windows 11 Pro como sistema operativo?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 4,
+                "length": 39
+            },
+            {
+                "category": "SistemaOperativo",
+                "offset": 50,
+                "length": 27
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿El Microsoft Surface PRO 10 para Empresas: incluye webcam?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 4,
+                "length": 39
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuántas pulgadas tiene la pantalla del Microsoft Surface PRO 10 para Empresas:?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 40,
+                "length": 39
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Qué tarjeta gráfica tiene el Microsoft Surface PRO 10 para Empresas:?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 30,
+                "length": 39
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿El Microsoft Surface PRO 10 para Empresas: tiene un procesador Intel Core Ultra 7?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 4,
+                "length": 39
+            },
+            {
+                "category": "Procesador",
+                "offset": 64,
+                "length": 18
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Qué tipo de memoria usa el Microsoft Surface PRO 10 para Empresas:?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 28,
+                "length": 39
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuánto pesa el Microsoft Surface PRO 10 para Empresas:?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 16,
+                "length": 39
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es el precio del Microsoft Surface PRO 10 para Empresas:?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 23,
+                "length": 39
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es la capacidad de memoria del Microsoft Surface PRO 10 para Empresas:?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 37,
+                "length": 39
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Quién es el fabricante del procesador del Microsoft Surface PRO 10 para Empresas:?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 43,
+                "length": 39
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es el código del producto Microsoft Surface PRO 10 para Empresas:?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 32,
+                "length": 39
+            }
+        ]
+    },
+    {
+        "intent": "comprarOrdenador",
+        "language": "es-es",
+        "text": "¿Tienes un portátil con Modelo de procesador i7-13800H y RAM Instalada 32 GB de RAM?",
+        "entities": [
+            {
+                "category": "ModeloProcesador",
+                "offset": 24,
+                "length": 30
+            },
+            {
+                "category": "MemoriaRAM",
+                "offset": 57,
+                "length": 19
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es la diferencia entre el Microsoft Surface Laptop Studio 2 y otros modelos?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 32,
+                "length": 33
+            }
+        ]
+    },
+    {
+        "intent": "comprarOrdenador",
+        "language": "es-es",
+        "text": "Quiero hacer un pedido del Microsoft Surface Laptop Studio 2 en color Color Gris.",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 27,
+                "length": 33
+            },
+            {
+                "category": "Color",
+                "offset": 70,
+                "length": 10
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿El Microsoft Surface Laptop Studio 2 tiene Version S.O. Windows 11 Pro como sistema operativo?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 4,
+                "length": 33
+            },
+            {
+                "category": "SistemaOperativo",
+                "offset": 44,
+                "length": 27
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿El Microsoft Surface Laptop Studio 2 incluye webcam?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 4,
+                "length": 33
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuántas pulgadas tiene la pantalla del Microsoft Surface Laptop Studio 2?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 40,
+                "length": 33
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Qué tarjeta gráfica tiene el Microsoft Surface Laptop Studio 2?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 30,
+                "length": 33
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿El Microsoft Surface Laptop Studio 2 tiene un procesador Procesador Intel® de 13ª generación Intel Core i7-13800H?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 4,
+                "length": 33
+            },
+            {
+                "category": "Procesador",
+                "offset": 58,
+                "length": 56
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Qué tipo de memoria usa el Microsoft Surface Laptop Studio 2?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 28,
+                "length": 33
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuánto pesa el Microsoft Surface Laptop Studio 2?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 16,
+                "length": 33
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es el precio del Microsoft Surface Laptop Studio 2?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 23,
+                "length": 33
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es la capacidad de memoria del Microsoft Surface Laptop Studio 2?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 37,
+                "length": 33
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Quién es el fabricante del procesador del Microsoft Surface Laptop Studio 2?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 43,
+                "length": 33
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es el código del producto Microsoft Surface Laptop Studio 2?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 32,
+                "length": 33
+            }
+        ]
+    },
+    {
+        "intent": "comprarOrdenador",
+        "language": "es-es",
+        "text": "¿Tienes un portátil con Modelo de procesador 165H y 64 GB de RAM, de RAM?",
+        "entities": [
+            {
+                "category": "ModeloProcesador",
+                "offset": 24,
+                "length": 25
+            },
+            {
+                "category": "MemoriaRAM",
+                "offset": 52,
+                "length": 13
+            }
+        ]
+    },
+    {
+        "intent": "comprarOrdenador",
+        "language": "es-es",
+        "text": "Necesito un ordenador con al menos 1 TB de capacidad en disco duro, de almacenamiento.",
+        "entities": [
+            {
+                "category": "CapacidadMemoria",
+                "offset": 35,
+                "length": 32
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es la diferencia entre el Microsoft Surface Laptop 6 y otros modelos?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 32,
+                "length": 26
+            }
+        ]
+    },
+    {
+        "intent": "comprarOrdenador",
+        "language": "es-es",
+        "text": "Quiero hacer un pedido del Microsoft Surface Laptop 6 en color Color Negro.",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 27,
+                "length": 26
+            },
+            {
+                "category": "Color",
+                "offset": 63,
+                "length": 11
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿El Microsoft Surface Laptop 6 tiene Windows 11, como sistema operativo?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 4,
+                "length": 26
+            },
+            {
+                "category": "SistemaOperativo",
+                "offset": 37,
+                "length": 11
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿El Microsoft Surface Laptop 6 incluye webcam?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 4,
+                "length": 26
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuántas pulgadas tiene la pantalla del Microsoft Surface Laptop 6?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 40,
+                "length": 26
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Qué tarjeta gráfica tiene el Microsoft Surface Laptop 6?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 30,
+                "length": 26
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿El Microsoft Surface Laptop 6 tiene un procesador procesador Intel ® Core™ Ultra 5 135H procesador Intel ® Core™ Ultra 7 165H,?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 4,
+                "length": 26
+            },
+            {
+                "category": "Procesador",
+                "offset": 51,
+                "length": 76
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Qué tipo de memoria usa el Microsoft Surface Laptop 6?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 28,
+                "length": 26
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuánto pesa el Microsoft Surface Laptop 6?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 16,
+                "length": 26
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es el precio del Microsoft Surface Laptop 6?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 23,
+                "length": 26
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es la capacidad de memoria del Microsoft Surface Laptop 6?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 37,
+                "length": 26
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Quién es el fabricante del procesador del Microsoft Surface Laptop 6?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 43,
+                "length": 26
+            }
+        ]
+    },
+    {
+        "intent": "consultarOrdenadores",
+        "language": "es-es",
+        "text": "¿Cuál es el código del producto Microsoft Surface Laptop 6?",
+        "entities": [
+            {
+                "category": "Producto",
+                "offset": 32,
+                "length": 26
+            }
+        ]
+    }
+]

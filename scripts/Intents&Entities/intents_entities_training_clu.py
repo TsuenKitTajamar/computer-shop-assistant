@@ -1,4 +1,5 @@
-import json, os
+import json
+import os
 from pymongo import MongoClient
 from dotenv import load_dotenv
 from datetime import datetime
@@ -43,44 +44,51 @@ def generar_frases(doc):
     peso = doc.get("Peso", "Peso no especificado")
 
     frases = [
-        ("BuscarOrdenador", f"Necesito un portátil con {modelo_procesador} y {ram}, que tenga {capacidad_memoria}.", [
+        ("comprarOrdenador", f"Necesito un portátil con {modelo_procesador} y {ram}, que tenga {capacidad_memoria}.", [
             ("ModeloProcesador", modelo_procesador),
             ("MemoriaRAM", ram),
             ("CapacidadMemoria", capacidad_memoria)
         ]),
-        ("BuscarOrdenador", f"Estoy buscando un ordenador con {fabricante_procesador} y al menos {almacenamiento}.", [
+        ("comprarOrdenador", f"Estoy buscando un ordenador con {fabricante_procesador} y al menos {almacenamiento}.", [
             ("FabricanteProcesador", fabricante_procesador),
             ("CapacidadMemoria", almacenamiento)
         ]),
-        ("CompararOrdenadores", f"Quiero comprar el {producto} de color {color} que cuesta {precio}.", [
+        ("comprarOrdenador", f"Quiero comprar el {producto} de color {color} que cuesta {precio}.", [
             ("Producto", producto),
             ("Color", color),
             ("Precio", precio)
         ]),
-        ("HacerPedido", f"Voy a hacer un pedido del {producto} con código {codigo}.", [
+        ("comprarOrdenador", f"Voy a hacer un pedido del {producto} con código {codigo}.", [
             ("Producto", producto),
             ("CodigoProducto", codigo)
         ]),
-        ("ConsultasAdicionales", f"¿Qué sistema operativo tiene el {producto}? {sistema}", [
+        ("consultarOrdenadores", f"¿Qué sistema operativo tiene el {producto}? {sistema}", [
+            ("Producto", producto),
             ("SistemaOperativo", sistema)
         ]),
-        ("ConsultasAdicionales", f"¿Este ordenador tiene webcam? {webcam}", [
+        ("consultarOrdenadores", f"¿Este ordenador tiene webcam? {webcam}", [
+            ("Producto", producto),
             ("WebCamIncluida", webcam)
         ]),
-        ("ConsultasAdicionales", f"¿Cuántas pulgadas tiene la pantalla del {producto}? {pantalla}", [
+        ("consultarOrdenadores", f"¿Cuántas pulgadas tiene la pantalla del {producto}? {pantalla}", [
+            ("Producto", producto),
             ("Pulgadas", pantalla)
         ]),
-        ("ConsultasAdicionales", f"¿Cuál es la tarjeta gráfica del {producto}? {modelo_grafica} fabricada por {fabricante_grafica}.", [
+        ("consultarOrdenadores", f"¿Cuál es la tarjeta gráfica del {producto}? {modelo_grafica} fabricada por {fabricante_grafica}.", [
+            ("Producto", producto),
             ("ModeloGrafica", modelo_grafica),
             ("FabricanteGrafica", fabricante_grafica)
         ]),
-        ("ConsultasAdicionales", f"¿Cuál es el procesador del {producto}? {procesador}.", [
+        ("consultarOrdenadores", f"¿Cuál es el procesador del {producto}? {procesador}.", [
+            ("Producto", producto),
             ("Procesador", procesador)
         ]),
-        ("ConsultasAdicionales", f"¿Qué tipo de memoria tiene el {producto}? {tipo_memoria}.", [
+        ("consultarOrdenadores", f"¿Qué tipo de memoria tiene el {producto}? {tipo_memoria}.", [
+            ("Producto", producto),
             ("TipoMemoria", tipo_memoria)
         ]),
-        ("ConsultasAdicionales", f"¿Cuánto pesa el {producto}? {peso}.", [
+        ("consultarOrdenadores", f"¿Cuánto pesa el {producto}? {peso}.", [
+            ("Producto", producto),
             ("Peso", peso)
         ])
     ]
