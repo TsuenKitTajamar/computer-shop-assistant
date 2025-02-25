@@ -36,3 +36,7 @@ Instrucciones:
 
 - `save_to_db.py` : Guardaremos estos 2 valores en una base de datos en `Azure CosmosDB` el cual el nombre de la etiqueta sera el campo (field) y guardaremos su respectivo valor
 
+- `intents_entities_testing_data.py` : Genera datos de testeo para el `Conversation Understading Model`
+
+- `intents_entities_training_clu.py` : Genera datos de inteciones y entidades de entrenamiento para el `Conversation Understading Model`
+
